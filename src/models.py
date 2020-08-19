@@ -14,7 +14,6 @@ from tqdm import trange
 from baselines.cvae.vae import VAE
 from baselines.vlm.vlm import VLM
 from baselines.vlm.vlm_pytorch import VLM_PyTorch
-from baselines.slim.slim_pytorch import SLIM_PyTorch
 
 from SLIM import SLIM, SLIMatrix
 
