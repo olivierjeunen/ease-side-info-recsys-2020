@@ -13,7 +13,7 @@ To preprocess the datasets to the format we use, run:
 
     python3 Preprocess[...].py <dataset_location>
 
-We do not hold the rights to any of these datasets and are not at libery to host and share them.
+We do not hold the rights to any of the datasets used in the paper, and are not at liberty to host and share them.
 However, upon request, I will gladly share pointers on where to find them.
 
 Now, you can run the ''TrainModel'' script to train and evaluate all models on the dataset of your choice.
