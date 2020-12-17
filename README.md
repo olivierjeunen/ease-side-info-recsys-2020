@@ -8,7 +8,15 @@ To generate a virtual Python environment that holds all the packages our work re
     source ease_side_info/bin/activate
     pip3 install -r requirements.txt
     
-Now, you can run the ''TrainModel'' script to train and evaluate all models on a given dataset.
+
+To preprocess the datasets to the format we use, run:
+
+    python3 Preprocess[...].py <dataset_location>
+
+We do not hold the rights to any of these datasets and are not at libery to host and share them.
+However, upon request, I will gladly share pointers on where to find them.
+
+Now, you can run the ''TrainModel'' script to train and evaluate all models on the dataset of your choice.
 
 ## Acknowledgements
 The source code we use for our baselines (SLIM, cVAE, VLM) was slightly adapted from their original sources, and we are grateful to the original authors for providing publicly available implementations:
