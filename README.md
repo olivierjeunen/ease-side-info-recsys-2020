@@ -28,6 +28,7 @@ The source code we use for our baselines (SLIM, cVAE, VLM) was slightly adapted 
 ## Paper
 If you use our code in your research, please remember to cite our paper:
 
+```BibTeX
     @inproceedings{JeunenRecSys2020,
       author = {Jeunen, Olivier and Van Balen, Jan and Goethals, Bart},
       title = {Closed-Form Models for Collaborative Filtering with Side-Information},
